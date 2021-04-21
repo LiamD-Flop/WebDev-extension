@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.safari-top-bar {
+    position: relative;
+    height: 93px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.safari-top-bar .url-bar {
+    background-color: #e6e8e9;
+    width: 65%;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 1rem;
+}
+
+.url-bar img {
+    height: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.url-bar.secure {
+    color: #46b159;
+}
+
+.url-bar.insecure {
+    color: #b14646;
+}
+
+.safari-bottom-bar {
+    height: 83px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #f9f9f9;
+}
+
+.safari-bottom-bar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.iphone-x iframe {
+    flex-grow: 1;
+}
+
+.iphone-x .screen {
+    display: flex;
+    flex-flow: column nowrap;
+}

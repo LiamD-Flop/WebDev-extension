@@ -13,8 +13,9 @@
         }
     ],
     "web_accessible_resources": [
-        "background.html",
-        "test.html",
-        "device.min.css"
+        "main/index.html",
+        "main/main.css",
+        "main/assets/lock.svg",
+        "main/devices.min.css"
     ]
 }
